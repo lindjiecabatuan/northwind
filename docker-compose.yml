@@ -111,8 +111,8 @@ services:
          context: ./redis
 
       image: redis:latest
-      
+
       container_name: bayne_redis
-      
+
       ports:
          - "6378:6379"
